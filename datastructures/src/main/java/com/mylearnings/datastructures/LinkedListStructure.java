@@ -1,7 +1,9 @@
 package com.mylearnings.datastructures;
 
 public class LinkedListStructure {
-	
+	public static void main(String[] args) {
+		LinkedList list = new LinkedList();
+	}
 }
 
 class LinkedList {
