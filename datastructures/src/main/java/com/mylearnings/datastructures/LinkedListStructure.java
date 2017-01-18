@@ -3,6 +3,8 @@ package com.mylearnings.datastructures;
 public class LinkedListStructure {
 	public static void main(String[] args) {
 		LinkedList list = new LinkedList();
+		LinkedList.Node node1 = new LinkedList.Node(10);
+		list.append(node1);
 	}
 }
 
@@ -33,7 +35,7 @@ class LinkedList {
 		next.next = node;
 		return;
 	}
-	class Node {
+	static class Node {
 		int data;
 		Node next;
 		
